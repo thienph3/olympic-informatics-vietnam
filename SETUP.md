@@ -74,9 +74,24 @@ git push -u origin main
 Khi push lần đầu, bạn sẽ cần xác thực:
 
 ### Option 1: Personal Access Token (Khuyến nghị)
-1. Vào GitHub Settings → Developer settings → Personal access tokens
-2. Tạo token mới với quyền `repo`
-3. Sử dụng token thay cho password khi Git hỏi
+
+**Bước 1: Tạo Personal Access Token**
+1. 🌐 Vào GitHub.com → Click avatar (góc phải) → **Settings**
+2. 📋 Scroll xuống → Click **Developer settings** (menu trái)
+3. 🔑 Click **Personal access tokens** → **Tokens (classic)**
+4. ✨ Click **Generate new token** → **Generate new token (classic)**
+5. 📝 Điền thông tin:
+   - **Note**: `Olympic Informatics Vietnam`
+   - **Expiration**: `90 days` (hoặc `No expiration`)
+   - **Scopes**: ✅ Chọn `repo` (full control of private repositories)
+6. 🎯 Click **Generate token**
+7. 📋 **QUAN TRỌNG**: Copy token ngay (chỉ hiện 1 lần!)
+
+**Bước 2: Sử dụng Token**
+- Username: `thienph3`
+- Password: `ghp_xxxxxxxxxxxxxxxxxxxx` (token vừa tạo)
+
+**🔗 Link trực tiếp**: https://github.com/settings/tokens
 
 ### Option 2: SSH Key
 ```bash
