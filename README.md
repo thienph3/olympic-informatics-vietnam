@@ -1,270 +1,469 @@
-# Lộ trình 6 tháng ôn luyện Olympic Tin học THPT Quốc gia
+# Lộ trình 3 tháng luyện thi Olympic Tin học THPT Quốc gia
 
 ## Giới thiệu
 
-Repository này cung cấp lộ trình ôn luyện dồn dập 6 tháng (3 buổi/tuần, 3h15'/buổi) dành cho học sinh THPT muốn tham gia Olympic Tin học và **đạt giải cao**. Lộ trình được thiết kế để từ zero đến có thể giải được các đề thi Olympic thực tế.
+Repository này cung cấp lộ trình luyện thi **tập trung cao độ 3 tháng** (2-3 buổi/tuần, 3h/buổi) dành cho học sinh THPT muốn **đạt giải Olympic Tin học**. Lộ trình được thiết kế theo phương pháp **"luyện gà"** - tập trung vào giải đề thực tế từ sớm, bỏ qua lý thuyết dài dòng.
 
-**Ngôn ngữ chính:** Python 3.10  
+**Ngôn ngữ:** Python 3.10  
 **IDE:** Visual Studio Code  
-**Thư viện:** Chỉ standard library (không pip install)  
-**Thời lượng:** 72 buổi × 3h15' = 234 giờ học
+**Thư viện:** Chỉ standard library  
+**Thời lượng:** 24 buổi × 3h = **72 giờ học**
 
 ## Đối tượng
 
-- Học sinh THPT chưa biết gì về lập trình
-- Học sinh muốn đạt giải Olympic Tin học cấp trường, tỉnh, quốc gia
-- Người có quyết tâm cao, sẵn sàng ôn luyện dồn dập
+- Học sinh THPT có hoặc chưa có kiến thức lập trình
+- Muốn đạt giải Olympic Tin học cấp trường, tỉnh, quốc gia trong thời gian ngắn
+- Sẵn sàng luyện tập cường độ cao, tập trung vào contest
 
 ## Cấu trúc lộ trình
 
-### Tháng 1: Nền tảng Python (12 buổi) ✅
+### 🚀 Tháng 1: Python + Algorithms cơ bản (8 buổi)
 
-- **Tuần 1:**
-  - [Day 1](month1/day01.md): Python 3.10 cơ bản, biến, kiểu dữ liệu, I/O, VSCode setup
-  - [Day 2](month1/day02.md): Toán tử và biểu thức, math module, bitwise operations
-  - [Day 3](month1/day03.md): Cấu trúc điều khiển if-else, nested if, conditional expressions
-- **Tuần 2:**
-  - [Day 4](month1/day04.md): Vòng lặp for cơ bản, range(), enumerate(), nested loops
-  - [Day 5](month1/day05.md): Vòng lặp while, break/continue, else trong vòng lặp
-  - [Day 6](month1/day06.md): Pattern printing, ứng dụng vòng lặp trong Olympic
-- **Tuần 3:**
-  - [Day 7](month1/day07.md): List cơ bản, indexing, slicing, methods
-  - [Day 8](month1/day08.md): List nâng cao, list comprehension, nested lists
-  - [Day 9](month1/day09.md): Tuple, string methods, string formatting
-- **Tuần 4:**
-  - [Day 10](month1/day10.md): Function cơ bản, parameters, return values
-  - [Day 11](month1/day11.md): Function nâng cao, lambda, scope, recursion
-  - [Day 12](month1/day12.md): Module, file I/O, exception handling, debugging
-
-### Tháng 2: Thuật toán cơ bản (12 buổi)
-
-- **Tuần 5:**
-  - [Day 13](month2/day13.md): Tìm kiếm tuyến tính, binary search cơ bản
-  - [Day 14](month2/day14.md): Binary search nâng cao, bisect module, search variants
-  - [Day 15](month2/day15.md): Ternary search, exponential search, interpolation search
-- **Tuần 6:**
-  - [Day 16](month2/day16.md): Sắp xếp cơ bản (bubble, selection, insertion) + 8 file problem
-  - [Day 17](month2/day17.md): Counting sort, radix sort, bucket sort + 8 file problem
-  - [Day 18](month2/day18.md): Sắp xếp ứng dụng, stable sorting, custom comparators + 8 file problem
-- **Tuần 7:**
-  - [Day 19](month2/day19.md): Merge sort, quick sort, heap sort + 8 file problem
-  - [Day 20](month2/day20.md): Độ phức tạp thuật toán, Big O notation + 8 file problem
-  - [Day 21](month2/day21.md): Phân tích hiệu suất, space complexity + 8 file problem
-- **Tuần 8:**
-  - [Day 22](month2/day22.md): Đệ quy cơ bản, base cases, recursive thinking + 8 file problem
-  - [Day 23](month2/day23.md): Chia để trị, divide and conquer algorithms + 8 file problem
-  - [Day 24](month2/day24.md): Giải đề Olympic cơ bản + Mock test tháng 2 + 8 file problem
-
-### Tháng 3: Cấu trúc dữ liệu (12 buổi)
-
-- **Tuần 9:**
-  - Day 25: collections.deque, double-ended queue operations
-  - Day 26: collections.Counter, frequency analysis và statistics
-  - Day 27: collections.defaultdict, OrderedDict, ChainMap
-- **Tuần 10:**
-  - Day 28: heapq module, binary heap operations
-  - Day 29: Priority queue, heap applications trong Olympic
-  - Day 30: Heap sort implementation, k-way merge
-- **Tuần 11:**
-  - Day 31: Stack implementation và applications
-  - Day 32: Queue implementation, circular queue, deque
-  - Day 33: Stack/Queue trong thuật toán (DFS, BFS preview)
-- **Tuần 12:**
-  - Day 34: Cây nhị phân cơ bản, tree traversal
-  - Day 35: Binary Search Tree (BST) implementation
-  - Day 36: **Giải đề Olympic trung bình** + Mock test tháng 3
-
-### Tháng 4: Đồ thị và cây (12 buổi)
-
-- **Tuần 13:**
-  - Day 37: Biểu diễn đồ thị (adjacency list, matrix), graph input/output
-  - Day 38: DFS (Depth-First Search) cơ bản với dict và list
-  - Day 39: DFS nâng cao, connected components, cycle detection
-- **Tuần 14:**
-  - Day 40: BFS (Breadth-First Search) cơ bản với collections.deque
-  - Day 41: BFS nâng cao, shortest path trong unweighted graph
-  - Day 42: Bipartite graph, graph coloring với BFS/DFS
-- **Tuần 15:**
-  - Day 43: Dijkstra algorithm cho shortest path trong weighted graph
-  - Day 44: Union-Find (Disjoint Set Union) data structure
-  - Day 45: Kruskal's algorithm cho Minimum Spanning Tree
-- **Tuần 16:**
-  - Day 46: Prim's algorithm cho MST, so sánh với Kruskal
-  - Day 47: Trie (Prefix Tree) implementation và applications
-  - Day 48: **Giải đề Olympic trung bình về đồ thị** + Mock test tháng 4
-
-### Tháng 5: Thuật toán nâng cao (12 buổi)
-
-- **Tuần 17:**
-  - Day 49: Quy hoạch động cơ bản, memoization với dict và functools.lru_cache
-  - Day 50: DP 1D problems (Fibonacci, climbing stairs, coin change)
-  - Day 51: DP 2D problems (grid paths, longest common subsequence)
-- **Tuần 18:**
-  - Day 52: DP nâng cao (knapsack, edit distance, palindrome)
-  - Day 53: itertools module (permutations, combinations, product)
-  - Day 54: Bitmask DP và state compression techniques
-- **Tuần 19:**
-  - Day 55: Thuật toán tham lam cơ bản (activity selection, fractional knapsack)
-  - Day 56: Greedy nâng cao (Huffman coding, interval scheduling)
-  - Day 57: Proof techniques cho greedy algorithms
-- **Tuần 20:**
-  - Day 58: Backtracking cơ bản (N-Queens, Sudoku solver)
-  - Day 59: Backtracking nâng cao với pruning và optimization
-  - Day 60: **Giải đề Olympic khó** + Mock test tháng 5
-
-### Tháng 6: Luyện thi Olympic (12 buổi)
-
-- **Tuần 21:** **Giải đề Olympic 2018-2020**
-  - Day 61: Giải đề Olympic Tin học 2018 (cấp trường, tỉnh)
-  - Day 62: Giải đề Olympic Tin học 2019 (cấp trường, tỉnh)
-  - Day 63: Giải đề Olympic Tin học 2020 (cấp trường, tỉnh)
-- **Tuần 22:** **Giải đề Olympic 2021-2024**
-  - Day 64: Giải đề Olympic Tin học 2021 (cấp quốc gia)
-  - Day 65: Giải đề Olympic Tin học 2022 (cấp quốc gia)
-  - Day 66: Giải đề Olympic Tin học 2023-2024 (cấp quốc gia)
-- **Tuần 23:** **Mock test, kỹ thuật thi với VSCode**
-  - Day 67: Mock test 1 - Simulation đề thi thực tế (3 tiếng)
-  - Day 68: Mock test 2 - Kỹ thuật thi, quản lý thời gian với VSCode
-  - Day 69: Mock test 3 - Debug và optimize code trong thời gian giới hạn
-- **Tuần 24:** **Ôn tập tổng hợp, luyện thi cuối**
-  - Day 70: Ôn tập tổng hợp - Review toàn bộ kiến thức 5 tháng
-  - Day 71: Final Mock test - Đề thi thử cuối cùng
-  - Day 72: Chiến lược thi, tâm lý thi cử, chuẩn bị cuối
-
-## Cách sử dụng
-
-1. **Lịch học:** 3 buổi/tuần (Thứ 2, 4, 6 hoặc Thứ 3, 5, 7)
-2. **Mỗi buổi:** 3h15' (lý thuyết + thực hành + nghỉ giải lao 5')
-3. **Bài tập:** Hoàn thành 100% bài tập mỗi tuần
-4. **Giải đề:** Từ tuần 8 bắt đầu giải đề thực tế
-5. **Mock test:** Tuần cuối mỗi tháng
-
-## Cấu trúc thư mục
-
-```
-olympic/
-├── month1/            # Nền tảng Python (✅ Hoàn thành Day 1-12)
-│   ├── day01.md       # Python cơ bản + 7 file problem
-│   ├── day02.md       # Toán tử và biểu thức + 8 file problem
-│   ├── day03.md       # Cấu trúc điều khiển + 8 file problem
-│   ├── day04.md       # Vòng lặp for + 8 file problem
-│   ├── day05.md       # Vòng lặp while + 7 file problem
-│   ├── day06.md       # Pattern printing + 8 file problem
-│   ├── day07.md       # List cơ bản + 8 file problem
-│   ├── day08.md       # List nâng cao + 8 file problem
-│   ├── day09.md       # Tuple và String methods + 8 file problem
-│   ├── day10.md       # Function cơ bản + 8 file problem
-│   ├── day11.md       # Function nâng cao + 8 file problem
-│   ├── day12.md       # Module, file I/O, exception handling + 8 file problem
-│   └── problem*.py    # 94 file bài tập thực hành
-├── month2/            # Thuật toán cơ bản (✅ Hoàn thành Day 13-24)
-│   ├── day13.md       # Tìm kiếm tuyến tính, binary search + 8 file problem
-│   ├── day14.md       # Binary search nâng cao, bisect module + 8 file problem
-│   ├── day15.md       # Ternary search, exponential search + 8 file problem
-│   ├── day16.md       # Sắp xếp cơ bản (bubble, selection, insertion) + 8 file problem
-│   ├── day17.md       # Counting sort, radix sort, bucket sort + 8 file problem
-│   ├── day18.md       # Sắp xếp ứng dụng, stable sorting + 8 file problem
-│   ├── day19.md       # Merge sort, quick sort, heap sort + 8 file problem
-│   ├── day20.md       # Độ phức tạp thuật toán, Big O notation + 8 file problem
-│   ├── day21.md       # Phân tích hiệu suất, space complexity + 8 file problem
-│   ├── day22.md       # Đệ quy cơ bản, recursive thinking + 8 file problem
-│   ├── day23.md       # Chia để trị, divide and conquer + 8 file problem
-│   ├── day24.md       # Giải đề Olympic cơ bản + Mock test + 8 file problem
-│   └── problem*.py    # 96 file bài tập thuật toán
-├── month3/            # Cấu trúc dữ liệu
-│   ├── day25.md       # collections.deque, double-ended queue + 8 file problem
-│   ├── day26.md       # collections.Counter, frequency analysis + 8 file problem
-│   ├── day27.md       # defaultdict, OrderedDict, ChainMap + 8 file problem
-│   ├── day28.md       # heapq module, binary heap operations + 8 file problem
-│   ├── day29.md       # Priority queue, heap applications + 8 file problem
-│   ├── day30.md       # Heap sort implementation, k-way merge + 8 file problem
-│   ├── day31.md       # Stack implementation và applications + 8 file problem
-│   ├── day32.md       # Queue implementation, circular queue + 8 file problem
-│   ├── day33.md       # Stack/Queue trong thuật toán + 8 file problem
-│   ├── day34.md       # Cây nhị phân, tree traversal + 8 file problem
-│   ├── day35.md       # Binary Search Tree (BST) + 8 file problem
-│   ├── day36.md       # Giải đề Olympic trung bình + Mock test + 8 file problem
-│   └── problem*.py    # 96 file bài tập cấu trúc dữ liệu
-├── month4/            # Đồ thị và cây
-│   ├── day37.md       # Biểu diễn đồ thị, adjacency list/matrix + 8 file problem
-│   ├── day38.md       # DFS cơ bản với dict và list + 8 file problem
-│   ├── day39.md       # DFS nâng cao, connected components + 8 file problem
-│   ├── day40.md       # BFS cơ bản với collections.deque + 8 file problem
-│   ├── day41.md       # BFS nâng cao, shortest path + 8 file problem
-│   ├── day42.md       # Bipartite graph, graph coloring + 8 file problem
-│   ├── day43.md       # Dijkstra algorithm cho weighted graph + 8 file problem
-│   ├── day44.md       # Union-Find (Disjoint Set Union) + 8 file problem
-│   ├── day45.md       # Kruskal's algorithm cho MST + 8 file problem
-│   ├── day46.md       # Prim's algorithm cho MST + 8 file problem
-│   ├── day47.md       # Trie (Prefix Tree) implementation + 8 file problem
-│   ├── day48.md       # Giải đề Olympic đồ thị + Mock test + 8 file problem
-│   └── problem*.py    # 96 file bài tập đồ thị và cây
-├── month5/            # Thuật toán nâng cao
-│   ├── day49.md       # Quy hoạch động cơ bản, memoization + 8 file problem
-│   ├── day50.md       # DP 1D problems (Fibonacci, coin change) + 8 file problem
-│   ├── day51.md       # DP 2D problems (grid paths, LCS) + 8 file problem
-│   ├── day52.md       # DP nâng cao (knapsack, edit distance) + 8 file problem
-│   ├── day53.md       # itertools module (permutations, combinations) + 8 file problem
-│   ├── day54.md       # Bitmask DP và state compression + 8 file problem
-│   ├── day55.md       # Thuật toán tham lam cơ bản + 8 file problem
-│   ├── day56.md       # Greedy nâng cao (Huffman, interval) + 8 file problem
-│   ├── day57.md       # Proof techniques cho greedy + 8 file problem
-│   ├── day58.md       # Backtracking cơ bản (N-Queens, Sudoku) + 8 file problem
-│   ├── day59.md       # Backtracking nâng cao với pruning + 8 file problem
-│   ├── day60.md       # Giải đề Olympic khó + Mock test + 8 file problem
-│   └── problem*.py    # 96 file bài tập thuật toán nâng cao
-├── month6/            # Luyện thi Olympic
-│   ├── day61.md       # Giải đề Olympic 2018 + 4 đề thi thực tế
-│   ├── day62.md       # Giải đề Olympic 2019 + 4 đề thi thực tế
-│   ├── day63.md       # Giải đề Olympic 2020 + 4 đề thi thực tế
-│   ├── day64.md       # Giải đề Olympic 2021 + 4 đề thi thực tế
-│   ├── day65.md       # Giải đề Olympic 2022 + 4 đề thi thực tế
-│   ├── day66.md       # Giải đề Olympic 2023-2024 + 4 đề thi thực tế
-│   ├── day67.md       # Mock test 1 - Simulation đề thi + 4 đề mock
-│   ├── day68.md       # Mock test 2 - Kỹ thuật thi VSCode + 4 đề mock
-│   ├── day69.md       # Mock test 3 - Debug và optimize + 4 đề mock
-│   ├── day70.md       # Ôn tập tổng hợp - Review kiến thức + 4 đề ôn tập
-│   ├── day71.md       # Final Mock test + 4 đề thi thử cuối
-│   ├── day72.md       # Chiến lược thi, tâm lý + 4 đề luyện tập
-│   └── contest*.py    # 48 đề thi thực tế và mock test
-├── problems/          # Bài tập theo chủ đề
-├── contests/          # Đề thi Olympic các năm
-├── solutions/         # Lời giải chi tiết
-└── mock-tests/        # Đề thi thử
-```
-
-## Yêu cầu hệ thống
-
-- Python 3.10
-- Visual Studio Code
-- **Chỉ sử dụng thư viện chuẩn Python** (math, collections, itertools, heapq, bisect, etc.)
-- **Không được cài đặt thêm package qua pip**
-
-## Tiến độ hoàn thành
-
-- ✅ **Tháng 1:** Day 1-12 hoàn thành (94 file bài tập) - Nền tảng Python vững chắc
-- ✅ **Tháng 2:** Day 13-24 hoàn thành (96 file bài tập) - Thuật toán cơ bản và giải đề Olympic
-- 🔄 **Tháng 3:** Day 25-36 chuẩn bị (96 file bài tập) - Cấu trúc dữ liệu
-- 🔄 **Tháng 4:** Day 37-48 chuẩn bị (96 file bài tập) - Đồ thị và cây
-- 🔄 **Tháng 5:** Day 49-60 chuẩn bị (96 file bài tập) - Thuật toán nâng cao
-- 🔄 **Tháng 6:** Day 61-72 chuẩn bị (48 đề thi thực tế) - Luyện thi Olympic
-
-## Cài đặt
-
-```bash
-git clone https://github.com/thienph3/olympic-informatics-vietnam.git
-cd olympic-informatics-vietnam
-# Bắt đầu từ month1/day01.md
-```
-
-## Đóng góp
-
-Mọi đóng góp để cải thiện lộ trình đều được hoan nghênh. Vui lòng tạo issue hoặc pull request.
-
-## Liên hệ
-
-Nếu có thắc mắc, vui lòng tạo issue trong repository này.
+**Mục tiêu:** Học Python qua việc giải bài thực tế trên VNOJ
 
 ---
 
-**Chúc các bạn học tập hiệu quả và đạt kết quả cao trong Olympic Tin học!** 🏆
+#### Day 1: Python essentials
+
+**Lý thuyết (45 phút):**
+
+- Variables, I/O, basic operations
+- Data types: int, float, string, list
+- Input/output với input(), print()
+- Basic arithmetic operations
+- Loops cơ bản: for, while
+- Conditions: if, elif, else
+
+**Bài tập:**
+
+- [NTFS](mds/NTFS.md) – Math (150) → [Nộp bài](https://oj.vnoi.info/problem/fcb052_ntfs)
+- [NUMRECT](mds/NUMRECT.md) – Math (200) → [Nộp bài](https://oj.vnoi.info/problem/fcb053_numrect)
+- [ABC](mds/ABC.md) – Math (250) → [Nộp bài](https://oj.vnoi.info/problem/fcb053_abc)
+- [INCMAT](mds/INCMAT.md) – Math (250) → [Nộp bài](https://oj.vnoi.info/problem/fcb054_incmat)
+- **Tổng độ khó:** 850
+
+---
+
+#### Day 2: Advanced Python & Functions
+
+**Lý thuyết (45 phút):**
+
+- Functions: def, return, parameters
+- List comprehension cơ bản
+- String operations
+- Advanced loops và nested structures
+
+**Bài tập:**
+
+- [FIVE](mds/FIVE.md) – Implementation (200) → [Nộp bài](https://oj.vnoi.info/problem/fcb047_five)
+- [COINS](mds/COINS.md) – Math (350) → [Nộp bài](https://oj.vnoi.info/problem/fcb044_coins)
+- [FINDPER](mds/FINDPER.md) – Simulation (400) → [Nộp bài](https://oj.vnoi.info/problem/fcb018_findper)
+- [MAXDIVI](mds/MAXDIVI.md) – Math (450) → [Nộp bài](https://oj.vnoi.info/problem/fcb050_maxdivi)
+- **Tổng độ khó:** 1400
+
+---
+
+#### Day 3: Search algorithms
+
+**Lý thuyết (45 phút):**
+
+- Linear search implementation
+- Binary search algorithm
+- Time complexity O(n) vs O(log n)
+- When to use each method
+
+**Bài tập:**
+
+- [MAXMUL](mds/MAXMUL.md) – Array (350) → [Nộp bài](https://oj.vnoi.info/problem/fcb055_maxmul)
+- [MINDIST](mds/MINDIST.md) – Array (300) → [Nộp bài](https://oj.vnoi.info/problem/fcb037_mindist)
+- [POTM](mds/POTM.md) – Array (300) → [Nộp bài](https://oj.vnoi.info/problem/fcb053_potm)
+- **Tổng độ khó:** 950
+
+---
+
+#### Day 4: Sorting algorithms
+
+**Lý thuyết (45 phút):**
+
+- Merge sort implementation
+- Quick sort algorithm
+- Time complexity analysis
+- Built-in sort() vs custom sorting
+
+**Bài tập:**
+
+- [CAMPING](mds/CAMPING.md) – Sorting (300) → [Nộp bài](https://oj.vnoi.info/problem/fcb050_camping)
+- [GOAL](mds/GOAL.md) – Simulation (350) → [Nộp bài](https://oj.vnoi.info/problem/fcb050_goal)
+- [DIV](mds/DIV.md) – Math (450) → [Nộp bài](https://oj.vnoi.info/problem/fcb051_div)
+- [HRANK](mds/HRANK.md) – Array (450) → [Nộp bài](https://oj.vnoi.info/problem/fcb051_hrank)
+- **Tổng độ khó:** 1550
+
+---
+
+#### Day 5: Recursion basics
+
+**Lý thuyết (45 phút):**
+
+- Recursion concept và base case
+- Fibonacci sequence implementation
+- Factorial calculation
+- Common recursion patterns
+
+**Bài tập:**
+
+- [LINEUP](mds/LINEUP.md) – Math (400) → [Nộp bài](https://oj.vnoi.info/problem/fcb051_lineup)
+- [BWTREE](mds/BWTREE.md) – Tree (400) → [Nộp bài](https://oj.vnoi.info/problem/fcb037_bwtree)
+- [MAZE](mds/MAZE.md) – Simulation (400) → [Nộp bài](https://oj.vnoi.info/problem/fcb024_maze)
+- [DIVNOTDIV](mds/DIVNOTDIV.md) – Math (500) → [Nộp bài](https://oj.vnoi.info/problem/fcb052_divnotdiv)
+- **Tổng độ khó:** 1700
+
+---
+
+#### Day 6: Dynamic Programming cơ bản
+
+**Lý thuyết (45 phút):**
+
+- DP concept: overlapping subproblems
+- Memoization technique
+- Top-down vs bottom-up approach
+- Simple DP examples
+
+**Bài tập:**
+
+- [STRGCD](mds/STRGCD.md) – String (500) → [Nộp bài](https://oj.vnoi.info/problem/fcb052_strgcd)
+- [COLORBALL](mds/COLORBALL.md) – Simulation (500) → [Nộp bài](https://oj.vnoi.info/problem/fcb051_colorball)
+- [PALINARRAY](mds/PALINARRAY.md) – Dynamic Programming (500) → [Nộp bài](https://oj.vnoi.info/problem/fcb055_palinarray)
+- **Tổng độ khó:** 1500
+- **Mock test 1:** [Beginner Free Contest 26](https://oj.vnoi.info/contest/fcb026) (5 bài cơ bản)
+
+---
+
+#### Day 7: Graph representation
+
+**Lý thuyết (45 phút):**
+
+- Graph theory basics
+- Adjacency list implementation
+- Adjacency matrix representation
+- When to use each method
+
+**Bài tập:**
+
+- [CEDGE](mds/CEDGE.md) – Graph (500) → [Nộp bài](https://oj.vnoi.info/problem/fcb023_cedge)
+- [AGRTREE](mds/AGRTREE.md) – Tree (550) → [Nộp bài](https://oj.vnoi.info/problem/fcb028_agrtree)
+- [DATE](mds/DATE.md) – Graph (400) → [Nộp bài](https://oj.vnoi.info/problem/fcb048_date)
+- **Tổng độ khó:** 1450
+
+---
+
+#### Day 8: Graph traversal
+
+**Lý thuyết (45 phút):**
+
+- BFS algorithm và queue
+- DFS algorithm và stack
+- Applications: shortest path, connectivity
+- Implementation in Python
+
+**Bài tập:**
+
+- [NYTRAVEL](mds/NYTRAVEL.md) – Graph (600) → [Nộp bài](https://oj.vnoi.info/problem/fcb016_nytravel)
+- [TREE](mds/TREE.md) – Graph (600) → [Nộp bài](https://oj.vnoi.info/problem/fcb005_tree)
+- [TRAVELAB](mds/TRAVELAB.md) – Dynamic Programming (550) → [Nộp bài](https://oj.vnoi.info/problem/fcb010_travelab)
+- **Tổng độ khó:** 1750
+- **Mock test 2:** [Beginner Free Contest 37](https://oj.vnoi.info/contest/fcb037) (5 bài graph cơ bản)
+
+---
+
+### 🎯 Tháng 2: Advanced Algorithms (8 buổi)
+
+**Mục tiêu:** Nắm vững các thuật toán Olympic quan trọng
+
+#### Day 9: Advanced Dynamic Programming
+
+**Lý thuyết (45 phút):**
+
+- 0/1 Knapsack problem
+- Unbounded knapsack
+- DP state design
+- Space optimization techniques
+
+**Bài tập:**
+
+- [FINDBRACSEQ](mds/FINDBRACSEQ.md) – Dynamic Programming (600) → [Nộp bài](https://oj.vnoi.info/problem/fcb052_findbracseq)
+- [SUBSET](mds/SUBSET.md) – Dynamic Programming (650) → [Nộp bài](https://oj.vnoi.info/problem/fcb047_subset)
+- [FALLFILL](mds/FALLFILL.md) – Dynamic Programming (700) → [Nộp bài](https://oj.vnoi.info/problem/fcb048_fallfill)
+- [XORQ](mds/XORQ.md) – Data Structures (650) → [Nộp bài](https://oj.vnoi.info/problem/fcb048_xorq)
+- **Tổng độ khó:** 2600
+
+---
+
+#### Day 10: DP on sequences
+
+**Lý thuyết (45 phút):**
+
+- Longest Common Subsequence (LCS)
+- Longest Increasing Subsequence (LIS)
+- Edit distance algorithm
+- DP on strings và arrays
+
+**Bài tập:**
+
+- [MULTIDSEQ](mds/MULTIDSEQ.md) – Dynamic Programming (700) → [Nộp bài](https://oj.vnoi.info/problem/fcb046_multidseq)
+- [COMSUB](mds/COMSUB.md) – Dynamic Programming (700) → [Nộp bài](https://oj.vnoi.info/problem/fcb045_comsub)
+- [SALE](mds/SALE.md) – Dynamic Programming (700) → [Nộp bài](https://oj.vnoi.info/problem/fcb044_sale)
+- **Tổng độ khó:** 2100
+- **Mock test 3:** [Beginner Free Contest 47](https://oj.vnoi.info/contest/fcb047) (focus DP problems)
+
+---
+
+#### Day 11: Greedy algorithms
+
+**Lý thuyết (45 phút):**
+
+- Greedy choice property
+- Activity selection problem
+- Coin change greedy approach
+- When greedy works vs fails
+
+**Bài tập:**
+
+- [TOYS](mds/TOYS.md) – Greedy (300) → [Nộp bài](https://oj.vnoi.info/problem/fcb052_toys)
+- [SALES](mds/SALES.md) – Greedy (450) → [Nộp bài](https://oj.vnoi.info/problem/fcb049_sales)
+- [BUS](mds/BUS.md) – Greedy (500) → [Nộp bài](https://oj.vnoi.info/problem/fcb046_bus)
+- [MAXMED](mds/MAXMED.md) – Greedy (500) → [Nộp bài](https://oj.vnoi.info/problem/fcb036_maxmed)
+- [TRUNGTHU](mds/TRUNGTHU.md) – Greedy (400) → [Nộp bài](https://oj.vnoi.info/problem/fcb045_trungthu)
+- **Tổng độ khó:** 2150
+
+---
+
+#### Day 12: Data Structures
+
+**Lý thuyết (45 phút):**
+
+- Hash tables và dictionaries
+- Priority queues và heaps
+- Segment trees cơ bản
+- Applications in competitive programming
+
+**Bài tập:**
+
+- [H9DNBD](mds/H9DNBD.md) – Hash Table (300) → [Nộp bài](https://oj.vnoi.info/problem/fcb049_h9dnbd)
+- [CLOSEST](mds/CLOSEST.md) – Data Structures (550) → [Nộp bài](https://oj.vnoi.info/problem/fcb049_closest)
+- [QUERYS](mds/QUERYS.md) – Data Structures (700) → [Nộp bài](https://oj.vnoi.info/problem/fcb050_querys)
+- **Tổng độ khó:** 1550
+- **Mock test 4:** [Beginner Free Contest 52](https://oj.vnoi.info/contest/fcb052)
+
+---
+
+#### Day 13: Graph algorithms
+
+**Lý thuyết (45 phút):**
+
+- Dijkstra's algorithm
+- Floyd-Warshall algorithm
+- Graph traversal applications
+- Tree algorithms
+
+**Bài tập:**
+
+- [RAINBOW](mds/RAINBOW.md) – Graph (750) → [Nộp bài](https://oj.vnoi.info/problem/fcb042_rainbow)
+- [MAXGRID](mds/MAXGRID.md) – Graph (600) → [Nộp bài](https://oj.vnoi.info/problem/fcb045_maxgrid)
+- [BRIDGES](mds/BRIDGES.md) – Geometry (550) → [Nộp bài](https://oj.vnoi.info/problem/fcb023_bridges)
+- [CEDGE](mds/CEDGE.md) – Graph (500) → [Nộp bài](https://oj.vnoi.info/problem/fcb023_cedge)
+- [ROOT](mds/ROOT.md) – Graph (500) → [Nộp bài](https://oj.vnoi.info/problem/fcb055_root)
+- **Tổng độ khó:** 2900
+
+---
+
+#### Day 14: Trees & Advanced Graph
+
+**Lý thuyết (45 phút):**
+
+- Tree algorithms
+- LCA (Lowest Common Ancestor)
+- Tree DP basics
+- Advanced graph problems
+
+**Bài tập:**
+
+- [TRAVELAB](mds/TRAVELAB.md) – Dynamic Programming (550) → [Nộp bài](https://oj.vnoi.info/problem/fcb010_travelab)
+- [VENDOR](mds/VENDOR.md) – Bit Manipulation (550) → [Nộp bài](https://oj.vnoi.info/problem/fcb045_vendor)
+- [ODDXOR](mds/ODDXOR.md) – Bit Manipulation (400) → [Nộp bài](https://oj.vnoi.info/problem/fcb046_oddxor)
+- **Tổng độ khó:** 1500
+- **Mock test 5:** [Beginner Free Contest 41](https://oj.vnoi.info/contest/fcb041)
+
+---
+
+#### Day 15: Math & Number Theory
+
+**Lý thuyết (45 phút):**
+
+- GCD, LCM algorithms
+- Modular arithmetic
+- Prime numbers và sieve
+- Mathematical problem solving
+
+**Bài tập:**
+
+- [SUBGCD](mds/SUBGCD.md) – Math (600) → [Nộp bài](https://oj.vnoi.info/problem/fcb051_subgcd)
+- [GIFTARR](mds/GIFTARR.md) – Math (400) → [Nộp bài](https://oj.vnoi.info/problem/fcb043_giftarr)
+- [DIV7](mds/DIV7.md) – Math (600) → [Nộp bài](https://oj.vnoi.info/problem/fcb053_div7)
+- [AREAMIN](mds/AREAMIN.md) – Math (400) → [Nộp bài](https://oj.vnoi.info/problem/fcb045_areamin)
+- [ONEDIVK](mds/ONEDIVK.md) – Math (450) → [Nộp bài](https://oj.vnoi.info/problem/fcb041_onedivk)
+- **Tổng độ khó:** 2450
+
+---
+
+#### Day 16: Mixed algorithm problems
+
+**Lý thuyết (45 phút):**
+
+- Combination of all algorithms
+- Problem solving strategies
+- Time complexity optimization
+- Contest techniques
+
+**Bài tập:**
+
+- [VOICE](mds/VOICE.md) – Array (450) → [Nộp bài](https://oj.vnoi.info/problem/fcb044_voice)
+- [IMPOSSIBOR](mds/IMPOSSIBOR.md) – Bit Manipulation (600) → [Nộp bài](https://oj.vnoi.info/problem/fcb050_impossibor)
+- [BBOX](mds/BBOX.md) – Bit Manipulation (600) → [Nộp bài](https://oj.vnoi.info/problem/fcb044_bbox)
+- [ABSOLUTE](mds/ABSOLUTE.md) – Game Theory (650) → [Nộp bài](https://oj.vnoi.info/problem/fcb047_absolute)
+- **Tổng độ khó:** 2300
+- **Mock test 6:** [Beginner Free Contest 50](https://oj.vnoi.info/contest/fcb050)
+
+---
+
+### 🏆 Tháng 3: Contest Training (8 buổi)
+
+**Mục tiêu:** Luyện thi chuyên sâu, đạt tốc độ thi thực tế
+
+#### Day 17: Mock test 7
+
+**Mock test:** [Free Contest 150](https://oj.vnoi.info/contest/fc150) (3 tiếng)
+
+- Review và phân tích lỗi chi tiết
+
+---
+
+#### Day 18: Mock test 8
+
+**Mock test:** [Free Contest 149](https://oj.vnoi.info/contest/fc149) (3 tiếng)
+
+- So sánh với mock test trước, tìm pattern
+
+---
+
+#### Day 19: Mock test 9
+
+**Mock test:** [Free Contest 148](https://oj.vnoi.info/contest/fc148) (3 tiếng)
+
+- Phân tích độ khó từng bài
+
+---
+
+#### Day 20: Mock test 10
+
+**Mock test:** [Free Contest 147](https://oj.vnoi.info/contest/fc147) (3 tiếng)
+
+- Tổng kết pattern 4 mock test
+
+---
+
+#### Day 21: Speed training
+
+**Lý thuyết (30 phút):**
+
+- Fast I/O techniques
+- Template code preparation
+- Time management strategies
+- Quick debugging methods
+
+**Bài tập:**
+
+- [SORTSTRING](mds/SORTSTRING.md) – String (300) (15 phút) → [Nộp bài](https://oj.vnoi.info/problem/fcb043_sortstring)
+- [ICPC](mds/ICPC.md) – Simulation (350) (20 phút) → [Nộp bài](https://oj.vnoi.info/problem/fcb043_icpc)
+- [TRICKLES](mds/TRICKLES.md) – Graph (400) (25 phút) → [Nộp bài](https://oj.vnoi.info/problem/fcb043_trickles)
+- [GAME](mds/GAME.md) – Game Theory (450) (30 phút) → [Nộp bài](https://oj.vnoi.info/problem/fcb043_game)
+- [OTT](mds/OTT.md) – Math (500) (35 phút) → [Nộp bài](https://oj.vnoi.info/problem/fcb042_ott)
+- **Tổng độ khó:** 2000
+
+---
+
+#### Day 22: Debugging & Optimization
+
+**Lý thuyết (30 phút):**
+
+- Common bug patterns
+- Debugging strategies
+- Code optimization techniques
+- Memory và time limit handling
+
+**Bài tập:**
+
+- [BROKENCLOCK](mds/BROKENCLOCK.md) – Implementation (350) (debug time) → [Nộp bài](https://oj.vnoi.info/problem/fcb042_brokenclock)
+- [SOCOLA](mds/SOCOLA.md) – Greedy (450) (logic debug) → [Nộp bài](https://oj.vnoi.info/problem/fcb042_socola)
+- [LBIN](mds/LBIN.md) – Greedy (500) (binary optimization) → [Nộp bài](https://oj.vnoi.info/problem/fcb041_lbin)
+- [SELLING](mds/SELLING.md) – Greedy (400) → [Nộp bài](https://oj.vnoi.info/problem/fcb041_selling)
+- [MEETING](mds/MEETING.md) – Math (450) → [Nộp bài](https://oj.vnoi.info/problem/fcb041_meeting)
+- **Tổng độ khó:** 2150
+- Xử lý edge cases, time limit
+
+---
+
+#### Day 23: Mock test 11
+
+**Mock test:** [Beginner Free Contest 53](https://oj.vnoi.info/contest/fcb053) (3 tiếng)
+
+**Bài tập:**
+
+- [BASE](mds/BASE.md) – Math (600) → [Nộp bài](https://oj.vnoi.info/problem/fcb041_base)
+- [CARDGAME](mds/CARDGAME.md) – Greedy (450) → [Nộp bài](https://oj.vnoi.info/problem/fcb040_cardgame)
+- [POSSIBLE](mds/POSSIBLE.md) – Math (400) → [Nộp bài](https://oj.vnoi.info/problem/fcb040_possible)
+- [TRIPLET](mds/TRIPLET.md) – Combinatorics (350) → [Nộp bài](https://oj.vnoi.info/problem/fcb046_triplet)
+- [RHOMBUS](mds/RHOMBUS.md) – Math (350) → [Nộp bài](https://oj.vnoi.info/problem/fcb048_rhombus)
+- **Tổng độ khó:** 2150
+- Simulation hoàn toàn như thi thật
+
+---
+
+#### Day 24: Mock test 12 + Strategy
+
+**Mock test:** [Beginner Free Contest 55](https://oj.vnoi.info/contest/fcb055) (3 tiếng)
+
+**Bài tập:**
+
+- [BASIC](mds/BASIC.md) – Brute Force (300) → [Nộp bài](https://oj.vnoi.info/problem/fcb040_basic)
+- [KMEMORY](mds/KMEMORY.md) – Array (350) → [Nộp bài](https://oj.vnoi.info/problem/fcb040_kmemory)
+- [TRIPLEGAME](mds/TRIPLEGAME.md) – Game Theory (700) → [Nộp bài](https://oj.vnoi.info/problem/fcb040_triplegame)
+- [NEARNUM](mds/NEARNUM.md) – Math (350) → [Nộp bài](https://oj.vnoi.info/problem/fcb039_nearnum)
+- [NEWYEAR](mds/NEWYEAR.md) – Simulation (400) → [Nộp bài](https://oj.vnoi.info/problem/fcb039_newyear)
+- **Tổng độ khó:** 2100
+- Chiến lược thi, quản lý thời gian, tâm lý
+
+---
+
+## Phương pháp học
+
+1. **Lịch học:** 2-3 buổi/tuần (tùy khả năng)
+2. **Mỗi buổi:** 3 tiếng (30% lý thuyết + 70% giải đề)
+3. **Nguyên tắc:** Học qua làm - giải đề Olympic từ Day 1
+4. **Mock test:** Mỗi tuần 1 đề Olympic hoàn chỉnh
+5. **Mục tiêu:** Giải được 80% bài Olympic cấp tỉnh sau 3 tháng
+
+## Yêu cầu
+
+- **Ngôn ngữ:** Python 3.10 (chỉ standard library)
+- **Thời gian:** 24 buổi × 3h = 72 giờ học
+- **Phương pháp:** Học qua làm - 70% giải đề thực tế
+
+## Kết quả mong đợi
+
+- ✅ Giải được 80% bài Olympic cấp tỉnh
+- ✅ Giải được 50% bài Olympic cấp quốc gia
+- ✅ Code nhanh, chính xác trong contest
+
+---
+
+**Luyện thi Olympic hiệu quả - Đạt giải trong 3 tháng!** 🏆

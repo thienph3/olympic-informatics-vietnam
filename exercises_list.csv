@@ -1,0 +1,110 @@
+Day,Type,Problem_Name,Contest_Name,Problem_Link,Contest_Link,PDF_Link,Category,Difficulty
+Day 21,Exercise,OTT,fcb042,https://oj.vnoi.info/problem/fcb042_ott,,https://vnoi-admin.github.io/statements/FC/FCB042/ott.pdf,Implementation,100
+Day 6,Exercise,NTFS,fcb052,https://oj.vnoi.info/problem/fcb052_ntfs,,https://vnoi-admin.github.io/statements/FC/FCB052/ntfs.pdf,Math,150
+Day 2,Exercise,NUMRECT,fcb053,https://oj.vnoi.info/problem/fcb053_numrect,,https://vnoi-admin.github.io/statements/FC/FCB053/numrect.pdf,Math,200
+Day 4,Exercise,MINRECT,fcb022,https://oj.vnoi.info/problem/fcb022_minrect,,https://vnoi-admin.github.io/statements/FC/FCB022/minrect.pdf,Geometry,200
+Day 13,Exercise,FIVE,fcb047,https://oj.vnoi.info/problem/fcb047_five,,https://vnoi-admin.github.io/statements/FC/FCB047/five.pdf,Implementation,200
+Day 14,Exercise,FENCES,fcb046,https://oj.vnoi.info/problem/fcb046_fences,,https://vnoi-admin.github.io/statements/FC/FCB046/fences.pdf,Math,200
+Day 21,Exercise,SORTSTRING,fcb043,https://oj.vnoi.info/problem/fcb043_sortstring,,https://vnoi-admin.github.io/statements/FC/FCB043/sortstring.pdf,String,200
+Day 1,Exercise,INCMAT,fcb054,https://oj.vnoi.info/problem/fcb054_incmat,,https://vnoi-admin.github.io/statements/FC/FCB054/incmat.pdf,Math,250
+Day 2,Exercise,ABC,fcb053,https://oj.vnoi.info/problem/fcb053_abc,,https://vnoi-admin.github.io/statements/FC/FCB053/abc.pdf,Math,250
+Day 11,Exercise,POINTS,fcb049,https://oj.vnoi.info/problem/fcb049_points,,https://vnoi-admin.github.io/statements/FC/FCB049/points.pdf,Implementation,250
+Day 4,Exercise,MINDIST,fcb037,https://oj.vnoi.info/problem/fcb037_mindist,,https://vnoi-admin.github.io/statements/FC/FCB037/mindist.pdf,Array,300
+Day 6,Exercise,POTM,fcb053,https://oj.vnoi.info/problem/fcb053_potm,,https://vnoi-admin.github.io/statements/FC/FCB053/potm.pdf,Array,300
+Day 6,Exercise,TOYS,fcb052,https://oj.vnoi.info/problem/fcb052_toys,,https://vnoi-admin.github.io/statements/FC/FCB052/toys.pdf,Greedy,300
+Day 10,Exercise,CAMPING,fcb050,https://oj.vnoi.info/problem/fcb050_camping,,https://vnoi-admin.github.io/statements/FC/FCB050/camping.pdf,Sorting,300
+Day 11,Exercise,TOYS,fcb049,https://oj.vnoi.info/problem/fcb049_toys,,https://vnoi-admin.github.io/statements/FC/FCB049/toys.pdf,Greedy,300
+Day 12,Exercise,H9DNBD,fcb049,https://oj.vnoi.info/problem/fcb049_h9dnbd,,https://vnoi-admin.github.io/statements/FC/FCB049/h9dnbd.pdf,Hash Table,300
+Day 13,Exercise,ISTRI,fcb048,https://oj.vnoi.info/problem/fcb048_istri,,https://vnoi-admin.github.io/statements/FC/FCB048/istri.pdf,Geometry,300
+Day 13,Exercise,SELFDIV,fcb047,https://oj.vnoi.info/problem/fcb047_selfdiv,,https://vnoi-admin.github.io/statements/FC/FCB047/selfdiv.pdf,Math,300
+Day 24,Exercise,BASIC,fcb040,https://oj.vnoi.info/problem/fcb040_basic,,https://vnoi-admin.github.io/statements/FC/FCB040/basic.pdf,Brute Force,300
+Day 3,Exercise,MAXMUL,fcb055,https://oj.vnoi.info/problem/fcb055_maxmul,,https://vnoi-admin.github.io/statements/FC/FCB055/maxmul.pdf,Array,350
+Day 5,Exercise,COINS,fcb044,https://oj.vnoi.info/problem/fcb044_coins,,https://vnoi-admin.github.io/statements/FC/FCB044/coins.pdf,Math,350
+Day 10,Exercise,GOAL,fcb050,https://oj.vnoi.info/problem/fcb050_goal,,https://vnoi-admin.github.io/statements/FC/FCB050/goal.pdf,Simulation,350
+Day 12,Exercise,RHOMBUS,fcb048,https://oj.vnoi.info/problem/fcb048_rhombus,,https://vnoi-admin.github.io/statements/FC/FCB048/rhombus.pdf,Math,350
+Day 14,Exercise,TRIPLET,fcb046,https://oj.vnoi.info/problem/fcb046_triplet,,https://vnoi-admin.github.io/statements/FC/FCB046/triplet.pdf,Combinatorics,350
+Day 22,Exercise,BROKENCLOCK,fcb042,https://oj.vnoi.info/problem/fcb042_brokenclock,,https://vnoi-admin.github.io/statements/FC/FCB042/brokenclock.pdf,Implementation,350
+Day 24,Exercise,KMEMORY,fcb040,https://oj.vnoi.info/problem/fcb040_kmemory,,https://vnoi-admin.github.io/statements/FC/FCB040/kmemory.pdf,Array,350
+Day 24,Exercise,NEARNUM,fcb039,https://oj.vnoi.info/problem/fcb039_nearnum,,https://vnoi-admin.github.io/statements/FC/FCB039/nearnum.pdf,Math,350
+Day 1,Exercise,FIBOXOR,fcb055,https://oj.vnoi.info/problem/fcb055_fiboxor,,https://vnoi-admin.github.io/statements/FC/FCB055/fiboxor.pdf,Math,400
+Day 5,Exercise,FINDPER,fcb018,https://oj.vnoi.info/problem/fcb018_findper,,https://vnoi-admin.github.io/statements/FC/FCB018/findper.pdf,Simulation,400
+Day 7,Exercise,BWTREE,fcb037,https://oj.vnoi.info/problem/fcb037_bwtree,,https://vnoi-admin.github.io/statements/FC/FCB037/bwtree.pdf,Tree,400
+Day 7,Exercise,MAZE,fcb024,https://oj.vnoi.info/problem/fcb024_maze,,https://vnoi-admin.github.io/statements/FC/FCB024/maze.pdf,Simulation,400
+Day 9,Exercise,LINEUP,fcb051,https://oj.vnoi.info/problem/fcb051_lineup,,https://vnoi-admin.github.io/statements/FC/FCB051/lineup.pdf,Math,400
+Day 12,Exercise,DATE,fcb048,https://oj.vnoi.info/problem/fcb048_date,,https://vnoi-admin.github.io/statements/FC/FCB048/date.pdf,Graph,400
+Day 14,Exercise,ODDXOR,fcb046,https://oj.vnoi.info/problem/fcb046_oddxor,,https://vnoi-admin.github.io/statements/FC/FCB046/oddxor.pdf,Bit Manipulation,400
+Day 15,Exercise,AREAMIN,fcb045,https://oj.vnoi.info/problem/fcb045_areamin,,https://vnoi-admin.github.io/statements/FC/FCB045/areamin.pdf,Math,400
+Day 15,Exercise,TRUNGTHU,fcb045,https://oj.vnoi.info/problem/fcb045_trungthu,,https://vnoi-admin.github.io/statements/FC/FCB045/trungthu.pdf,Greedy,400
+Day 16,Exercise,GIFTARR,fcb043,https://oj.vnoi.info/problem/fcb043_giftarr,,https://vnoi-admin.github.io/statements/FC/FCB043/giftarr.pdf,Math,400
+Day 21,Exercise,ICPC,fcb043,https://oj.vnoi.info/problem/fcb043_icpc,,https://vnoi-admin.github.io/statements/FC/FCB043/icpc.pdf,Greedy,400
+Day 23,Exercise,SELLING,fcb041,https://oj.vnoi.info/problem/fcb041_selling,,https://vnoi-admin.github.io/statements/FC/FCB041/selling.pdf,Greedy,400
+Day 23,Exercise,POSSIBLE,fcb040,https://oj.vnoi.info/problem/fcb040_possible,,https://vnoi-admin.github.io/statements/FC/FCB040/possible.pdf,Math,400
+Day 24,Exercise,NEWYEAR,fcb039,https://oj.vnoi.info/problem/fcb039_newyear,,https://vnoi-admin.github.io/statements/FC/FCB039/newyear.pdf,Simulation,400
+Day 3,Exercise,MAXDIVI,fcb050,https://oj.vnoi.info/problem/fcb050_maxdivi,,https://vnoi-admin.github.io/statements/FC/FCB050/maxdivi.pdf,Math,450
+Day 10,Exercise,DIV,fcb051,https://oj.vnoi.info/problem/fcb051_div,,https://vnoi-admin.github.io/statements/FC/FCB051/div.pdf,Math,450
+Day 10,Exercise,HRANK,fcb051,https://oj.vnoi.info/problem/fcb051_hrank,,https://vnoi-admin.github.io/statements/FC/FCB051/hrank.pdf,Array,450
+Day 11,Exercise,SALES,fcb049,https://oj.vnoi.info/problem/fcb049_sales,,https://vnoi-admin.github.io/statements/FC/FCB049/sales.pdf,Greedy,450
+Day 16,Exercise,VOICE,fcb044,https://oj.vnoi.info/problem/fcb044_voice,,https://vnoi-admin.github.io/statements/FC/FCB044/voice.pdf,Array,450
+Day 22,Exercise,SOCOLA,fcb042,https://oj.vnoi.info/problem/fcb042_socola,,https://vnoi-admin.github.io/statements/FC/FCB042/socola.pdf,Greedy,450
+Day 22,Exercise,ONEDIVK,fcb041,https://oj.vnoi.info/problem/fcb041_onedivk,,https://vnoi-admin.github.io/statements/FC/FCB041/onedivk.pdf,Math,450
+Day 23,Exercise,MEETING,fcb041,https://oj.vnoi.info/problem/fcb041_meeting,,https://vnoi-admin.github.io/statements/FC/FCB041/meeting.pdf,Math,450
+Day 23,Exercise,CARDGAME,fcb040,https://oj.vnoi.info/problem/fcb040_cardgame,,https://vnoi-admin.github.io/statements/FC/FCB040/cardgame.pdf,Greedy,450
+Day 1,Exercise,ROOT,fcb055,https://oj.vnoi.info/problem/fcb055_root,,https://vnoi-admin.github.io/statements/FC/FCB055/root.pdf,Graph,500
+Day 3,Exercise,PALINARRAY,fcb055,https://oj.vnoi.info/problem/fcb055_palinarray,,https://vnoi-admin.github.io/statements/FC/FCB055/palinarray.pdf,Dynamic Programming,500
+Day 4,Exercise,MAXMED,fcb036,https://oj.vnoi.info/problem/fcb036_maxmed,,https://vnoi-admin.github.io/statements/FC/FCB036/maxmed.pdf,Greedy,500
+Day 7,Exercise,CEDGE,fcb023,https://oj.vnoi.info/problem/fcb023_cedge,,https://vnoi-admin.github.io/statements/FC/FCB023/cedge.pdf,Graph,500
+Day 9,Exercise,DIVNOTDIV,fcb052,https://oj.vnoi.info/problem/fcb052_divnotdiv,,https://vnoi-admin.github.io/statements/FC/FCB052/divnotdiv.pdf,Math,500
+Day 9,Exercise,STRGCD,fcb052,https://oj.vnoi.info/problem/fcb052_strgcd,,https://vnoi-admin.github.io/statements/FC/FCB052/strgcd.pdf,String,500
+Day 9,Exercise,COLORBALL,fcb051,https://oj.vnoi.info/problem/fcb051_colorball,,https://vnoi-admin.github.io/statements/FC/FCB051/colorball.pdf,Simulation,500
+Day 14,Exercise,BUS,fcb046,https://oj.vnoi.info/problem/fcb046_bus,,https://vnoi-admin.github.io/statements/FC/FCB046/bus.pdf,Greedy,500
+Day 21,Exercise,TRICKLES,fcb043,https://oj.vnoi.info/problem/fcb043_trickles,,https://vnoi-admin.github.io/statements/FC/FCB043/trickles.pdf,Brute Force,500
+Day 22,Exercise,LBIN,fcb041,https://oj.vnoi.info/problem/fcb041_lbin,,https://vnoi-admin.github.io/statements/FC/FCB041/lbin.pdf,Greedy,500
+Day 1,Exercise,ROCK,fcb054,https://oj.vnoi.info/problem/fcb054_rock,,https://vnoi-admin.github.io/statements/FC/FCB054/rock.pdf,Greedy,550
+Day 3,Exercise,MAXDIFF,fcb047,https://oj.vnoi.info/problem/fcb047_maxdiff,,https://vnoi-admin.github.io/statements/FC/FCB047/maxdiff.pdf,Greedy,550
+Day 4,Exercise,MAXDIFF,fcb042,https://oj.vnoi.info/problem/fcb042_maxdiff,,https://vnoi-admin.github.io/statements/FC/FCB042/maxdiff.pdf,Greedy,550
+Day 4,Exercise,MEDIAN,fcb039,https://oj.vnoi.info/problem/fcb039_median,,https://vnoi-admin.github.io/statements/FC/FCB039/median.pdf,Array,550
+Day 6,Exercise,STRCNT,fcb054,https://oj.vnoi.info/problem/fcb054_strcnt,,https://vnoi-admin.github.io/statements/FC/FCB054/strcnt.pdf,String,550
+Day 7,Exercise,AGRTREE,fcb028,https://oj.vnoi.info/problem/fcb028_agrtree,,https://vnoi-admin.github.io/statements/FC/FCB028/agrtree.pdf,Tree,550
+Day 7,Exercise,BRIDGES,fcb023,https://oj.vnoi.info/problem/fcb023_bridges,,https://vnoi-admin.github.io/statements/FC/FCB023/bridges.pdf,Geometry,550
+Day 8,Exercise,TRAVELAB,fcb010,https://oj.vnoi.info/problem/fcb010_travelab,,https://vnoi-admin.github.io/statements/FC/FCB010/travelab.pdf,Dynamic Programming,550
+Day 13,Exercise,CLOSEST,fcb049,https://oj.vnoi.info/problem/fcb049_closest,,https://vnoi-admin.github.io/statements/FC/FCB049/closest.pdf,Data Structures,550
+Day 15,Exercise,VENDOR,fcb045,https://oj.vnoi.info/problem/fcb045_vendor,,https://vnoi-admin.github.io/statements/FC/FCB045/vendor.pdf,Bit Manipulation,550
+Day 21,Exercise,GAME,fcb043,https://oj.vnoi.info/problem/fcb043_game,,https://vnoi-admin.github.io/statements/FC/FCB043/game.pdf,Game Theory,550
+Day 2,Exercise,REPXOR,fcb054,https://oj.vnoi.info/problem/fcb054_repxor,,https://vnoi-admin.github.io/statements/FC/FCB054/repxor.pdf,Bit Manipulation,600
+Day 3,Exercise,MAXGRID,fcb045,https://oj.vnoi.info/problem/fcb045_maxgrid,,https://vnoi-admin.github.io/statements/FC/FCB045/maxgrid.pdf,Graph,600
+Day 6,Exercise,DIV7,fcb053,https://oj.vnoi.info/problem/fcb053_div7,,https://vnoi-admin.github.io/statements/FC/FCB053/div7.pdf,Math,600
+Day 8,Exercise,NYTRAVEL,fcb016,https://oj.vnoi.info/problem/fcb016_nytravel,,https://vnoi-admin.github.io/statements/FC/FCB016/nytravel.pdf,Graph,600
+Day 8,Exercise,TREE,fcb005,https://oj.vnoi.info/problem/fcb005_tree,,https://vnoi-admin.github.io/statements/FC/FCB005/tree.pdf,Graph,600
+Day 9,Exercise,FINDBRACSEQ,fcb052,https://oj.vnoi.info/problem/fcb052_findbracseq,,https://vnoi-admin.github.io/statements/FC/FCB052/findbracseq.pdf,Dynamic Programming,600
+Day 10,Exercise,SUBGCD,fcb051,https://oj.vnoi.info/problem/fcb051_subgcd,,https://vnoi-admin.github.io/statements/FC/FCB051/subgcd.pdf,Math,600
+Day 11,Exercise,IMPOSSIBOR,fcb050,https://oj.vnoi.info/problem/fcb050_impossibor,,https://vnoi-admin.github.io/statements/FC/FCB050/impossibor.pdf,Bit Manipulation,600
+Day 16,Exercise,BBOX,fcb044,https://oj.vnoi.info/problem/fcb044_bbox,,https://vnoi-admin.github.io/statements/FC/FCB044/bbox.pdf,Bit Manipulation,600
+Day 23,Exercise,BASE,fcb041,https://oj.vnoi.info/problem/fcb041_base,,https://vnoi-admin.github.io/statements/FC/FCB041/base.pdf,Math,600
+Day 1,Exercise,MAGICWISH,fcb055,https://oj.vnoi.info/problem/fcb055_magicwish,,https://vnoi-admin.github.io/statements/FC/FCB055/magicwish.pdf,Greedy,650
+Day 2,Exercise,SHADOW,fcb054,https://oj.vnoi.info/problem/fcb054_shadow,,https://vnoi-admin.github.io/statements/FC/FCB054/shadow.pdf,Geometry,650
+Day 2,Exercise,DELIVERY,fcb053,https://oj.vnoi.info/problem/fcb053_delivery,,https://vnoi-admin.github.io/statements/FC/FCB053/delivery.pdf,Greedy,650
+Day 5,Exercise,PERLIS,fcb022,https://oj.vnoi.info/problem/fcb022_perlis,,https://vnoi-admin.github.io/statements/FC/FCB022/perlis.pdf,Greedy,650
+Day 12,Exercise,XORQ,fcb048,https://oj.vnoi.info/problem/fcb048_xorq,,https://vnoi-admin.github.io/statements/FC/FCB048/xorq.pdf,Data Structures,650
+Day 13,Exercise,ABSOLUTE,fcb047,https://oj.vnoi.info/problem/fcb047_absolute,,https://vnoi-admin.github.io/statements/FC/FCB047/absolute.pdf,Game Theory,650
+Day 14,Exercise,SUBSET,fcb047,https://oj.vnoi.info/problem/fcb047_subset,,https://vnoi-admin.github.io/statements/FC/FCB047/subset.pdf,Dynamic Programming,650
+Day 11,Exercise,QUERYS,fcb050,https://oj.vnoi.info/problem/fcb050_querys,,https://vnoi-admin.github.io/statements/FC/FCB050/querys.pdf,Data Structures,700
+Day 12,Exercise,FALLFILL,fcb048,https://oj.vnoi.info/problem/fcb048_fallfill,,https://vnoi-admin.github.io/statements/FC/FCB048/fallfill.pdf,Dynamic Programming,700
+Day 15,Exercise,MULTIDSEQ,fcb046,https://oj.vnoi.info/problem/fcb046_multidseq,,https://vnoi-admin.github.io/statements/FC/FCB046/multidseq.pdf,Dynamic Programming,700
+Day 15,Exercise,COMSUB,fcb045,https://oj.vnoi.info/problem/fcb045_comsub,,https://vnoi-admin.github.io/statements/FC/FCB045/comsub.pdf,Dynamic Programming,700
+Day 16,Exercise,SALE,fcb044,https://oj.vnoi.info/problem/fcb044_sale,,https://vnoi-admin.github.io/statements/FC/FCB044/sale.pdf,Dynamic Programming,700
+Day 24,Exercise,TRIPLEGAME,fcb040,https://oj.vnoi.info/problem/fcb040_triplegame,,https://vnoi-admin.github.io/statements/FC/FCB040/triplegame.pdf,Game Theory,700
+Day 16,Exercise,SUMDIST,fcb044,https://oj.vnoi.info/problem/fcb044_sumdist,,https://vnoi-admin.github.io/statements/FC/FCB044/sumdist.pdf,Geometry,750
+Day 22,Exercise,RAINBOW,fcb042,https://oj.vnoi.info/problem/fcb042_rainbow,,https://vnoi-admin.github.io/statements/FC/FCB042/rainbow.pdf,Graph,750
+Day 5,Exercise,DPD1,fcb012,https://oj.vnoi.info/problem/fcb012_dpd1,,https://vnoi-admin.github.io/statements/FC/FCB012/dpd1.pdf,Dynamic Programming,800
+Day 6,Contest,Mock test 1,Beginner Free Contest 26,,https://oj.vnoi.info/contest/fcb026,,,
+Day 8,Contest,Mock test 2,Beginner Free Contest 37,,https://oj.vnoi.info/contest/fcb037,,,
+Day 10,Contest,Contest,Beginner Free Contest 47,,https://oj.vnoi.info/contest/fcb047,,,
+Day 12,Contest,Mock test 2,Beginner Free Contest 52,,https://oj.vnoi.info/contest/fcb052,,,
+Day 14,Contest,Contest simulation,Beginner Free Contest 41,,https://oj.vnoi.info/contest/fcb041,,,
+Day 16,Contest,Mock test 3,Beginner Free Contest 50,,https://oj.vnoi.info/contest/fcb050,,,
+Day 17,Contest,Contest simulation 1,Free Contest 150,,https://oj.vnoi.info/contest/fc150,,,
+Day 18,Contest,Contest simulation 2,Free Contest 149,,https://oj.vnoi.info/contest/fc149,,,
+Day 19,Contest,Contest simulation 3,Free Contest 148,,https://oj.vnoi.info/contest/fc148,,,
+Day 20,Contest,Contest simulation 4,Free Contest 147,,https://oj.vnoi.info/contest/fc147,,,
+Day 23,Contest,Final mock test 1,Beginner Free Contest 53,,https://oj.vnoi.info/contest/fcb053,,,
+Day 24,Contest,Final mock test 2,Beginner Free Contest 55,,https://oj.vnoi.info/contest/fcb055,,,
