@@ -1,40 +1,21 @@
-# Day 2: Python Control Structures
+# Day 2: Advanced Python & Functions
 
-## Loops (Vòng lặp)
+## Advanced Loops và Nested Structures
 
-### For Loop
+### Advanced For Loop
 ```python
-# Lặp qua range
-for i in range(5):
-    print(i)  # 0, 1, 2, 3, 4
-
 # Lặp với start, stop, step
 for i in range(1, 10, 2):
     print(i)  # 1, 3, 5, 7, 9
 
-# Lặp qua list
-numbers = [1, 2, 3, 4, 5]
-for num in numbers:
-    print(num)
-
 # Lặp với index
+numbers = [1, 2, 3, 4, 5]
 for i, value in enumerate(numbers):
     print(f"Index {i}: {value}")
-```
 
-### While Loop
-```python
-# While cơ bản
-count = 0
-while count < 5:
-    print(count)
-    count += 1
-
-# While với điều kiện phức tạp
-n = int(input())
-while n > 0:
-    print(n % 10)  # In từng chữ số
-    n //= 10
+# Lặp ngược
+for i in range(10, 0, -1):
+    print(i)
 ```
 
 ### Break và Continue
@@ -52,45 +33,21 @@ for i in range(10):
     print(i)  # 1, 3, 5, 7, 9
 ```
 
-## Conditions (Điều kiện)
-
-### If-elif-else
+### Nested Loops
 ```python
-score = int(input())
+# Vòng lặp lồng nhau
+for i in range(3):
+    for j in range(3):
+        print(f"({i}, {j})")
 
-if score >= 90:
-    grade = "A"
-elif score >= 80:
-    grade = "B"
-elif score >= 70:
-    grade = "C"
-elif score >= 60:
-    grade = "D"
-else:
-    grade = "F"
-
-print(f"Điểm: {grade}")
-```
-
-### Nested conditions
-```python
-age = int(input())
-has_license = input() == "yes"
-
-if age >= 18:
-    if has_license:
-        print("Có thể lái xe")
-    else:
-        print("Cần có bằng lái")
-else:
-    print("Chưa đủ tuổi")
-```
-
-### Ternary operator
-```python
-x = int(input())
-result = "Chẵn" if x % 2 == 0 else "Lẻ"
-print(result)
+# Tạo ma trận
+matrix = []
+for i in range(3):
+    row = []
+    for j in range(3):
+        row.append(i * j)
+    matrix.append(row)
+print(matrix)
 ```
 
 ## Functions (Hàm)
@@ -155,7 +112,7 @@ modify_global()
 print(x)  # 30
 ```
 
-## List Comprehension
+## List Comprehension cơ bản
 
 ### Basic list comprehension
 ```python
@@ -167,20 +124,35 @@ print(squares)  # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 evens = [x for x in range(20) if x % 2 == 0]
 print(evens)  # [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
 
-# Nested comprehension
-matrix = [[i*j for j in range(3)] for i in range(3)]
-print(matrix)  # [[0, 0, 0], [0, 1, 2], [0, 2, 4]]
+# Transform data
+words = ["hello", "world", "python"]
+lengths = [len(word) for word in words]
+print(lengths)  # [5, 5, 6]
 ```
 
-### Dictionary và Set comprehension
-```python
-# Dictionary comprehension
-squares_dict = {x: x**2 for x in range(5)}
-print(squares_dict)  # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
+## String Operations
 
-# Set comprehension
-unique_remainders = {x % 3 for x in range(10)}
-print(unique_remainders)  # {0, 1, 2}
+### String methods
+```python
+text = "Hello World Python"
+
+# Case operations
+print(text.upper())     # HELLO WORLD PYTHON
+print(text.lower())     # hello world python
+print(text.title())     # Hello World Python
+
+# Search and replace
+print(text.find("World"))      # 6
+print(text.replace("World", "Universe"))  # Hello Universe Python
+
+# Split and join
+words = text.split()    # ['Hello', 'World', 'Python']
+joined = "-".join(words)  # Hello-World-Python
+
+# Check methods
+print("123".isdigit())   # True
+print("abc".isalpha())   # True
+print("abc123".isalnum())  # True
 ```
 
 ## Ví dụ thực tế

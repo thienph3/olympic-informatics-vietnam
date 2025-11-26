@@ -1,4 +1,4 @@
-# Day 1: Python Essentials
+# Day 1: Python essentials
 
 ## Variables và Data Types
 
@@ -139,6 +139,47 @@ popped = arr.pop()   # Xóa và trả về phần tử cuối
 print(len(arr))
 ```
 
+## Control Structures Cơ bản
+
+### Conditions (if/elif/else)
+```python
+# If cơ bản
+age = int(input())
+if age >= 18:
+    print("Đủ tuổi")
+else:
+    print("Chưa đủ tuổi")
+
+# If-elif-else
+score = int(input())
+if score >= 90:
+    print("Giỏi")
+elif score >= 70:
+    print("Khá")
+elif score >= 50:
+    print("Trung bình")
+else:
+    print("Yếu")
+```
+
+### Loops cơ bản (for, while)
+```python
+# For loop với range
+for i in range(5):  # 0, 1, 2, 3, 4
+    print(i)
+
+# For loop với list
+numbers = [1, 2, 3, 4, 5]
+for num in numbers:
+    print(num)
+
+# While loop
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+```
+
 ## Ví dụ thực tế
 
 ### Bài 1: Tính tổng 2 số
@@ -164,55 +205,6 @@ for x in arr:
     if x % 2 == 0:
         count += 1
 print(count)
-```
-
-## Control Structures Cơ bản
-
-### Conditions (if/elif/else)
-```python
-# If cơ bản
-age = int(input())
-if age >= 18:
-    print("Đủ tuổi")
-else:
-    print("Chưa đủ tuổi")
-
-# If-elif-else
-score = int(input())
-if score >= 90:
-    print("Giỏi")
-elif score >= 70:
-    print("Khá")
-elif score >= 50:
-    print("Trung bình")
-else:
-    print("Yếu")
-```
-
-### Loops (Vòng lặp)
-```python
-# For loop với range
-for i in range(5):  # 0, 1, 2, 3, 4
-    print(i)
-
-# For loop với list
-numbers = [1, 2, 3, 4, 5]
-for num in numbers:
-    print(num)
-
-# While loop
-i = 0
-while i < 5:
-    print(i)
-    i += 1
-```
-
-### Nested Loops
-```python
-# Vòng lặp lồng nhau
-for i in range(3):
-    for j in range(3):
-        print(f"({i}, {j})")
 ```
 
 ## Lưu ý quan trọng
